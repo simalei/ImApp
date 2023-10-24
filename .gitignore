@@ -1,4 +1,5 @@
 /build
+/.vs
 *.vcproj
 *.vcxproj
 *.vcxproj.filters
