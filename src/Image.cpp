@@ -1,7 +1,7 @@
 #include "Image.h"
 #include <iostream>
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
+#include <stb_image.h>
 #include <imgui_internal.h>
 
 constexpr auto GL_CLAMP_TO_EDGE = 0x812F;

@@ -16,7 +16,7 @@ project "ImApp"
 	targetdir "build/bin/%{cfg.buildcfg}-%{cfg.platform}"
 	objdir "build/obj/%{cfg.buildcfg}-%{cfg.platform}"
 
-    includedirs { "%{wks.location}/vendor/imgui", "%{wks.location}/vendor/glfw/include" }
+    includedirs { "%{wks.location}/vendor/imgui", "%{wks.location}/vendor/glfw/include", "%{wks.location}/vendor/stb" }
     links { "imgui", "glfw", "opengl32" }
 
 	filter "configurations:Debug"
